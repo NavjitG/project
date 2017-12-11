@@ -1,0 +1,147 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 1.5;
+  margin:0;
+  background-color: #e6e6e6;
+}
+
+.contain{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*Styling for the Header*/
+header{
+  background: #000000;
+  color: #ffffff;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom: #cc0000 3px solid;
+}
+
+#logo{
+  float: left;
+}
+
+header #logo h1{
+  margin: 0;
+}
+
+nav {
+  float: right;
+  padding: 0px 0px 0 0;
+}
+
+nav a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li{
+  float: left;
+  display: inline;
+  font-size: 150%;
+  padding: 10px;
+}
+
+li a:hover{
+	color: #cc0000 ;
+}
+
+#menu-icon{
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url("../images/mobilenav.png") center;
+}
+
+a:hover#menu-icon{
+  border-radius: 4 4 0 0
+}
+
+.banner{
+  min-height: 400px;
+  width: 100%;
+  background: url("../images/homebanner2.png") no-repeat 0px 0px;
+  border-bottom: #cc0000 3px solid;
+  background-size: cover;
+
+}
+
+/*
+#banner{
+  min-height: 400px;
+  background: url("../images/homebanner.png") no-repeat -320px -620px;
+}
+*/
+
+.one-fourth {
+  width:25%;
+  padding: 0;
+  margin: 0;
+  float:left;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000 ;
+
+}
+
+
+
+
+/*
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #f1f1f1;
+}
+
+ul{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li{
+   float: left;
+}
+
+li a{
+   display: block;
+   color: #000;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover{
+	background-color: #555;
+	color: white;
+}
+
+li .active {
+	background-color: #4CAF50;
+	color:white;
+}
+
+li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+*/
