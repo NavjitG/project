@@ -93,12 +93,55 @@ a:hover#menu-icon{
   width:25%;
   padding: 0;
   margin: 0;
+  padding-bottom: 20px;
   float:left;
   text-align: center;
   color: #ffffff;
   background-color: #000000 ;
+}
+
+.card-container{
+  cursor: pointer;
+  perspective: 600;
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+.card{
+  height: 170px;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
 
 }
+
+.card:hover{
+  transform: rotateY(180deg);
+}
+
+.card .flip-front{
+  background-color: #000000;
+  backface-visibility:hidden;
+  height: 170px;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card .flip-back{
+  background: #eaeaed;
+  color:#0087cc;
+  line-height: 170px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
 
 
 
