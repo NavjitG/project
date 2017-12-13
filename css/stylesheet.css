@@ -24,8 +24,6 @@ ul{
   margin: 0;
   padding: 0;
 }
-
-
 /*Styling for the Header*/
 header{
   background: #000000;
@@ -84,10 +82,6 @@ a:hover#menu-icon{
 
 }
 
-article{
-  display: block;
-}
-
 /*
 #banner{
   min-height: 400px;
@@ -95,7 +89,7 @@ article{
 }
 */
 
-.one-four{
+.one-fourth {
   width:25%;
   padding: 0;
   margin: 0;
@@ -122,10 +116,6 @@ article{
   transition: all 1s ease-in-out;
 
 }
-<<<<<<< HEAD
-
-.card:hover{
-=======
 
 .card:hover{
   transform: rotateY(180deg);
@@ -145,34 +135,30 @@ article{
   color:#0087cc;
   line-height: 170px;
   text-align: center;
->>>>>>> 6540e9465276d31920a9ec66b4873bc4fd6b12f7
   transform: rotateY(180deg);
 }
 
-.card .flip-front{
-  background-color: #000000;
-  backface-visibility:hidden;
-  height: 170px;
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
+.flex-container{
+  display: flex;
+  align-items: center;
 }
 
-.card .flip-back{
-  background: #eaeaed;
-  color:#0087cc;
-  line-height: 170px;
-  text-align: center;
-  transform: rotateY(180deg);
+.flex-container{
+  border: 1px #ccc solid;
+  padding: 10px;
 }
 
+.box1{
+  flex:1;
+}
 
+.box2{
+  flex:1;
+}
 
-
-
-
-
-
+.box2{
+  flex:1;
+}
 
 
 
