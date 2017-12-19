@@ -160,7 +160,26 @@ a:hover#menu-icon{
   flex:1;
 }
 
+.newsletter{
+  padding: 50px;
+  color:#ffffff;
+  background: #000000;
+}
 
+.newsletter h1{
+  float: left;
+}
+
+.newsletter form{
+  float: right;
+
+}
+
+.newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
 
 
 
