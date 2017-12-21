@@ -140,13 +140,13 @@ a:hover#menu-icon{
 }
 
 .container-1{
-  display: flex;
 
 }
 
 .container-1 div{
   border: 1px #ccc solid;
   padding: 10px;
+  
 }
 
 .box1{
@@ -154,7 +154,7 @@ a:hover#menu-icon{
 }
 
 .box2{
-  flex:1;
+  flex:2;
 }
 
 .box2{
