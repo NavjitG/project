@@ -1,22 +1,16 @@
-
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-
-}
-
 body{
   font-family: Arial;
   font-size: 15px;
   line-height: 1.5;
   margin:0;
+  padding: 0;
   background-color: #e6e6e6;
 }
 
+/* global css */
 .contain{
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 80%;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -29,7 +23,7 @@ ul{
 header{
   background: #000000;
   color: #ffffff;
-  padding-top: 10px;
+  padding-top: 20px;
   min-height: 70px;
   border-bottom: #cc0000 3px solid;
 }
@@ -74,13 +68,26 @@ a:hover#menu-icon{
   border-radius: 4 4 0 0
 }
 
-.banner{
+
+/* banner starts here */
+#banner-container{
   min-height: 400px;
-  width: 100%;
   background: url("../images/homebanner2.png") no-repeat 0px 0px;
   border-bottom: #cc0000 3px solid;
+  text-align: center;
   background-size: cover;
+  color: #ffffff;
 
+}
+
+#banner-container h1{
+  margin-top: 100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#banner-container p{
+  font-size: 20px;
 }
 
 /*
@@ -139,30 +146,27 @@ a:hover#menu-icon{
   transform: rotateY(180deg);
 }
 
-.container-1{
-  display: flex;
+/* featured review section */
 
+#featured-reviews{
+  margin-top: 100px;
 }
 
-.container-1 div{
-  border: 1px #ccc solid;
+#featured-reviews .box{
+  float: left;
+  width: 46%;
   padding: 10px;
+  text-align: center;
+  }
+
+#featured-reviews .box img{
+
 }
 
-.box-1{
-  flex:1;
-}
 
-.box-2{
-  flex:1;
-}
-
-.box-3{
-  flex:1;
-}
 
 .newsletter{
-  padding: 50px;
+  padding: 15px;
   color: #ffffff;
   background: #ed3f36;
 }
@@ -173,6 +177,7 @@ a:hover#menu-icon{
 
 .newsletter form{
   float: right;
+  margin-top: 15px;
 
 }
 
@@ -180,6 +185,13 @@ a:hover#menu-icon{
   padding: 4px;
   height: 25px;
   width: 250px;
+}
+
+.button1{
+  height: 38;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
