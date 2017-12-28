@@ -246,3 +246,53 @@ footer{
   background: #FFFA37;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+/* styling for conten on the Review pages ps4,pc,xbox,nintendo */
+
+.slide{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1{
+  background-image: url("../images/ps4slideshow1.png");
+}
+
+.slide2{
+  background-image: url("../images/ps4slideshow2.png");
+}
+
+.slide3{
+  background-image: url("../images/ps4slideshow3.png");
+}
+
+#slider, .slideshow, .slide-content{
+  height: 400px;
+
+}
+
+
+.arrow{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left{
+  border-width: 30px 40px 30px 0;
+  left: 0;
+  margin-left: 30px;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+#arrow-right{
+  border-width: 30px 0 30px 40px;
+  left: 0;
+  margin-right: 30px;
+  border-color: transparent transparent transparent #ffffff;
+}
