@@ -4,7 +4,7 @@ function initMap() {
   let trueGamer = {lat: 52.629311, lng: -1.137836};
   let mapDemo = document.getElementById("map");
 
-  // When the map is loaded this will set the default location 
+  // When the map is loaded this will set the default location
   let map = new google.maps.Map(mapDemo, {
     zoom: 13,
     center: leicester
@@ -42,6 +42,7 @@ function reset(){
    sliderImages[current - 1].style.display = 'block';
    current--;
  }
+
 
  function slideRight(){
    reset();
