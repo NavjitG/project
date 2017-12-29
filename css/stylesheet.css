@@ -91,7 +91,7 @@ nav ul li{
   padding: 10px;
 }
 
-header a:hover, footer a:hover,{
+header a:hover, footer a:hover{
 	color: #cc0000 ;
   font-weight: bold;
 }
