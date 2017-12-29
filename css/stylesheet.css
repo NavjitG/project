@@ -7,6 +7,20 @@ body{
   background-color: #e6e6e6;
 }
 
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 700;
+}
+h3{
+  font-size: 20px;
+}
+
+
+
 /* global css */
 .contain{
   width: 80%;
@@ -34,6 +48,7 @@ header{
 
 header #logo h1{
   margin: 0;
+  font-size: 30px;
 }
 
 nav {
@@ -102,6 +117,7 @@ a:hover#menu-icon{
 */
 
 .one-fourth {
+  font-size: 150%;
   width:25%;
   padding: 0;
   margin: 0;
@@ -110,6 +126,11 @@ a:hover#menu-icon{
   text-align: center;
   color: #ffffff;
   background-color: #000000 ;
+}
+
+.one-fourth a{
+  text-decoration: none;
+  color: #000000;
 }
 
 .card-container{
@@ -167,22 +188,20 @@ a:hover#menu-icon{
 
 }
 
-
-
 .newsletter{
   padding: 15px;
   color: #ffffff;
   background: #ed3f36;
 }
 
-.newsletter h1{
+.newsletter h2{
   float: left;
+
 }
 
 .newsletter form{
   float: right;
   margin-top: 15px;
-
 }
 
 .newsletter input[type="email"]{
@@ -192,10 +211,12 @@ a:hover#menu-icon{
 }
 
 .button1{
-  height: 38;
-  border: none;
+  height: 38px;
+  background: #e8491d;
+  border: 0;
   padding-left: 20px;
   padding-right: 20px;
+  color: #ffffff
 }
 
 footer{
@@ -317,4 +338,21 @@ footer{
   right: 0;
   margin-right: 20px;
   border-color: transparent transparent transparent #ffffff;
+}
+
+.review{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+article h2{
+  font-size: 30px;
+  
+}
+
+article p{
+  text-align: justify;
 }
