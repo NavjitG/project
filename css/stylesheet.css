@@ -249,34 +249,56 @@ footer{
 
 /* styling for conten on the Review pages ps4,pc,xbox,nintendo */
 
+#slider, .slideshow, .slide-content{
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+
+.slideshow{
+  position: relative;
+}
+
 .slide{
   background-size: cover;
-  background-position: center;
+
   background-repeat: no-repeat;
+
 }
+
+
 
 .slide1{
-  background-image: url("../images/ps4slideshow1.png");
+  background-image: url("../images/ps4slideshow1.png") ;
 }
-
 .slide2{
   background-image: url("../images/ps4slideshow2.png");
 }
-
 .slide3{
   background-image: url("../images/ps4slideshow3.png");
 }
 
-#slider, .slideshow, .slide-content{
-  height: 400px;
+.slide-content{
+  display flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.slide-content span{
+  font-size: 5rem;
+  color: #ffffff;
 }
 
 
 .arrow{
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 55%;
   margin-top: -50px;
   width: 0;
   height: 0;
@@ -286,13 +308,13 @@ footer{
 #arrow-left{
   border-width: 30px 40px 30px 0;
   left: 0;
-  margin-left: 30px;
+  margin-left: 20px;
   border-color: transparent #ffffff transparent transparent;
 }
 
 #arrow-right{
   border-width: 30px 0 30px 40px;
-  left: 0;
-  margin-right: 30px;
+  right: 0;
+  margin-right: 20px;
   border-color: transparent transparent transparent #ffffff;
 }
