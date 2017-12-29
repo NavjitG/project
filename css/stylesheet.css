@@ -91,7 +91,7 @@ nav ul li{
   padding: 10px;
 }
 
-header a:hover, footer a:hover{
+header a:hover, footer a:hover,{
 	color: #cc0000 ;
   font-weight: bold;
 }
@@ -193,6 +193,10 @@ header a:hover, footer a:hover{
   padding: 10px;
   text-align: center;
   }
+
+#featured-reviews a{
+  width:46%;
+}
 
 
 
@@ -469,4 +473,43 @@ section.feedback .feedback-form textarea{
 .box6{
   flex: 1;
   order: 3;
+}
+
+/* Site Map*/
+
+.sitemap-container{
+   display: flex;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-bottom: 5%;
+
+
+}
+
+.sitemap-container div{
+
+  padding:10px;
+}
+
+.sitemapbox1{
+  flex: 1;
+
+}
+
+.sitemapbox2{
+  flex: 1;
+}
+
+.sitemapbox1 ul li a, .sitemapbox2 ul li a{
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.sitemapbox1 a:hover, .sitemapbox2 a:hover{
+	color: #cc0000 ;
+  font-weight: bold;
 }
